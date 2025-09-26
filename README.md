@@ -107,7 +107,6 @@
 - Auto Close Tag (Jun Han)
 - Auto Import - ES6, TS, JSX, TSX (Sergey Korenuk)
 - Auto Rename Tag (Jun Han)
-- Debugger for Chrome
 - ESLint (Microsoft)
 - indent-rainbow (oderwat)
 - HTML CSS Support (ecmel)
@@ -122,8 +121,7 @@
 - Reactjs code snippets (charalampos karypidis)
 - Simple React Snippets (Burke Holland)
 - Snipped (Jefferson Licet)
-- Stylelint (Stylelint)
-- WordPress Snippets (wpprotools.io)
+- WordPress Snippets
 - VSCode React Refactor (planbcoding)
 - Tailwind CSS IntelliSense (Tailwind Labs)
 
