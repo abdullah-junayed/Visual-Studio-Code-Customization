@@ -125,6 +125,7 @@
 - VSCode React Refactor (planbcoding)
 - React Native Tools (Microsoft)
 - Tailwind CSS IntelliSense (Tailwind Labs)
+- WSL (Microsoft) for connect with wsl distro.
 
 ## 🎨 VS Code Themes
 
