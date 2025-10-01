@@ -123,6 +123,7 @@
 - Snipped (Jefferson Licet)
 - WordPress Snippets
 - VSCode React Refactor (planbcoding)
+- React Native Tools (Microsoft)
 - Tailwind CSS IntelliSense (Tailwind Labs)
 
 ## 🎨 VS Code Themes
