@@ -69,6 +69,7 @@
   "terminal.integrated.fontSize": 18,
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "underline",
+  "terminal.integrated.fontFamily": "MesloLGS NF"
 
   // 🔥 Live Server & SASS
   "liveServer.settings.CustomBrowser": "chrome:PrivateMode",
@@ -96,8 +97,11 @@
   // 🧼 Misc
   "window.zoomLevel": 1,
   "diffEditor.wordWrap": "on",
-  "security.workspace.trust.untrustedFiles": "open"
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.fontLigatures.enabled": true,
+  "terminal.integrated.fontFamily": "MesloLGS NF"
 }
+
 
 
 ```
