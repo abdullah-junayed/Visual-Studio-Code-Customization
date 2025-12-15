@@ -164,6 +164,7 @@
 
 - [Fira Code](https://fonts.google.com/specimen/Fira+Code)
 - [Operator Mono](https://www.typography.com/fonts/operator/styles)
+- [Nerd Fonts](https://www.nerdfonts.com/) for zsh shell theme
 
 ## 🧑‍💻 Contributors
 
