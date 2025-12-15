@@ -118,15 +118,17 @@
 - Live Sass Compiler (Glenn Marks)
 - npm Intellisense (Christian Kohler)
 - Path Intellisense (Christian Kohler)
-- Postman (Postman)
 - Prettier - Code formatted (Prettier)
+- ES7+ React/Redux/React-Native snippets (dsznajder)
 - Reactjs code snippets (charalampos karypidis)
-- Simple React Snippets (Burke Holland)
 - Snipped (Jefferson Licet)
-- WordPress Snippets
-- VSCode React Refactor (planbcoding)
-- React Native Tools (Microsoft)
 - Tailwind CSS IntelliSense (Tailwind Labs)
+- Python, Python Debugger and Python Environments (Microsoft)
+- Ruff (Astral Software astral.sh)
+- Jupyter, Jupyter Keymap, Jupyter Slide Show, Jupyter Cell Tags, Jupyter Notebook Renderers and Jupyter PowerToys (Microsoft)
+- Fastapi-snippets (Samuel Adekoya)
+- Django (Baptiste Darthenay)
+- Django Template (bibhasdn)
 - WSL (Microsoft) for connect with wsl distro.
 
 ## 🎨 VS Code Themes
