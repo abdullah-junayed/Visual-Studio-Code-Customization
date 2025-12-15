@@ -3,13 +3,12 @@
 ## 🛠 VS Code Settings
 
 ```bash
-  {
+{
   // 🖋️ Editor Typography
   "editor.fontSize": 18,
   "editor.fontFamily": "'Fira Code', 'JetBrains Mono', 'Cascadia Code', monospace",
   "editor.fontLigatures": true,
   "editor.lineHeight": 28,
-  "editor.tabSize": 2,
   "editor.wordWrap": "on",
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorBlinking": "phase",
@@ -21,7 +20,7 @@
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": true,
   "editor.guides.bracketPairsHorizontal": true,
-  "editor.hover.enabled": false,
+  "editor.hover.enabled": "on",
   "editor.smoothScrolling": true,
   "editor.minimap.enabled": true,
   "editor.minimap.size": "fill",
@@ -52,11 +51,8 @@
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[php]": {
-    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
-  },
   "[python]": {
-    "editor.defaultFormatter": "ms-python.black-formatter"
+    "editor.defaultFormatter": "charliermarsh.ruff"
   },
 
   // 🧪 Prettier Config
@@ -65,11 +61,10 @@
   "prettier.arrowParens": "avoid",
 
   // 🌐 Terminal
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
   "terminal.integrated.fontSize": 18,
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "underline",
-  "terminal.integrated.fontFamily": "MesloLGS NF"
+  "terminal.integrated.fontFamily": "MesloLGS NF", //For zsh Theme support. (Linux/wsl distro)
 
   // 🔥 Live Server & SASS
   "liveServer.settings.CustomBrowser": "chrome:PrivateMode",
@@ -99,10 +94,9 @@
   "diffEditor.wordWrap": "on",
   "security.workspace.trust.untrustedFiles": "open",
   "terminal.integrated.fontLigatures.enabled": true,
-  "terminal.integrated.fontFamily": "MesloLGS NF"
+  "files.autoSave": "afterDelay",
+  "editor.mouseWheelZoom": true
 }
-
-
 
 ```
 
@@ -129,6 +123,8 @@
 - Fastapi-snippets (Samuel Adekoya)
 - Django (Baptiste Darthenay)
 - Django Template (bibhasdn)
+- Fluent Icons (Miguel Solorio)
+- GitHub Copilot (GitHub)
 - WSL (Microsoft) for connect with wsl distro.
 
 ## 🎨 VS Code Themes
