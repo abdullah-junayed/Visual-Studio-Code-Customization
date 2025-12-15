@@ -112,12 +112,10 @@
 - Auto Import - ES6, TS, JSX, TSX (Sergey Korenuk)
 - Auto Rename Tag (Jun Han)
 - ESLint (Microsoft)
-- indent-rainbow (oderwat)
 - HTML CSS Support (ecmel)
 - JavaScript (ES6) code snippets (charalampos karypidis)
 - Live Server (Ritwick Dey)
 - Live Sass Compiler (Glenn Marks)
-- Material Icon Theme (Philipp Kief)
 - npm Intellisense (Christian Kohler)
 - Path Intellisense (Christian Kohler)
 - Postman (Postman)
@@ -134,6 +132,7 @@
 ## 🎨 VS Code Themes
 
 - chai theme (hitesh choudhary) 👈 IM USING THIS THEME.
+- Material Icon Theme (Philipp Kief)
 
 ## 🔑 VS Code Keyboard Shortcuts
 
