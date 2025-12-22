@@ -90,7 +90,7 @@
   },
 
   // 🧼 Misc
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 0,
   "diffEditor.wordWrap": "on",
   "security.workspace.trust.untrustedFiles": "open",
   "terminal.integrated.fontLigatures.enabled": true,
