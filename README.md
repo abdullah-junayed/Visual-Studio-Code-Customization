@@ -3,6 +3,7 @@
 ## 🛠 VS Code Settings
 
 ```bash
+
 {
   // 🖋️ Editor Typography
   "editor.fontSize": 18,
@@ -64,20 +65,11 @@
   "terminal.integrated.fontSize": 18,
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "underline",
-  "terminal.integrated.fontFamily": "MesloLGS NF", //For zsh Theme support. (Linux/wsl distro)
 
   // 🔥 Live Server & SASS
   "liveServer.settings.CustomBrowser": "chrome:PrivateMode",
   "liveServer.settings.donotShowInfoMsg": true,
   "liveServer.settings.donotVerifyTags": true,
-  "liveSassCompile.settings.formats": [
-    {
-      "format": "compressed",
-      "extensionName": ".min.css",
-      "savePath": "/css"
-    }
-  ],
-  "liveSassCompile.settings.generateMap": false,
 
   // 📸 Screencast Mode
   "screencastMode.onlyKeyboardShortcuts": true,
@@ -95,8 +87,10 @@
   "security.workspace.trust.untrustedFiles": "open",
   "terminal.integrated.fontLigatures.enabled": true,
   "files.autoSave": "afterDelay",
-  "editor.mouseWheelZoom": true
+  "editor.mouseWheelZoom": true,
+  "workbench.sideBar.location": "right"
 }
+
 
 ```
 
@@ -109,7 +103,6 @@
 - HTML CSS Support (ecmel)
 - JavaScript (ES6) code snippets (charalampos karypidis)
 - Live Server (Ritwick Dey)
-- Live Sass Compiler (Glenn Marks)
 - npm Intellisense (Christian Kohler)
 - Path Intellisense (Christian Kohler)
 - Prettier - Code formatted (Prettier)
@@ -119,10 +112,7 @@
 - Tailwind CSS IntelliSense (Tailwind Labs)
 - Python, Python Debugger and Python Environments (Microsoft)
 - Ruff (Astral Software astral.sh)
-- Jupyter, Jupyter Keymap, Jupyter Slide Show, Jupyter Cell Tags, Jupyter Notebook Renderers and Jupyter PowerToys (Microsoft)
-- Fastapi-snippets (Samuel Adekoya)
-- Django (Baptiste Darthenay)
-- Django Template (bibhasdn)
+- Jupyter (Microsoft)
 - Fluent Icons (Miguel Solorio)
 - GitHub Copilot (GitHub)
 - WSL (Microsoft) for connect with wsl distro.
