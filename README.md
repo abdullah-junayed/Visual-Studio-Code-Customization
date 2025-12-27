@@ -65,6 +65,7 @@
   "terminal.integrated.fontSize": 18,
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "underline",
+  "terminal.integrated.fontFamily": "'Fira Code', 'JetBrains Mono', 'Cascadia Code', monospace",
 
   // 🔥 Live Server & SASS
   "liveServer.settings.CustomBrowser": "chrome:PrivateMode",
