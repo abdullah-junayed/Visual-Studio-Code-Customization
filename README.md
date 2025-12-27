@@ -67,7 +67,7 @@
   "terminal.integrated.cursorStyle": "underline",
   "terminal.integrated.fontFamily": "'Fira Code', 'JetBrains Mono', 'Cascadia Code', monospace",
 
-  // 🔥 Live Server & SASS
+  // 🔥 Live Server
   "liveServer.settings.CustomBrowser": "chrome:PrivateMode",
   "liveServer.settings.donotShowInfoMsg": true,
   "liveServer.settings.donotVerifyTags": true,
