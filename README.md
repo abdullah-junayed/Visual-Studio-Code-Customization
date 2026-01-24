@@ -103,23 +103,24 @@
 - ESLint (Microsoft)
 - HTML CSS Support (ecmel)
 - JavaScript (ES6) code snippets (charalampos karypidis)
+- JavaScript and TypeScript Nightly (Microsoft)
 - Live Server (Ritwick Dey)
 - npm Intellisense (Christian Kohler)
 - Path Intellisense (Christian Kohler)
 - Prettier - Code formatted (Prettier)
 - ES7+ React/Redux/React-Native snippets (dsznajder)
 - Reactjs code snippets (charalampos karypidis)
+- React Native Tools (Microsoft)
 - Snipped (Jefferson Licet)
 - Tailwind CSS IntelliSense (Tailwind Labs)
+- Bootstrap IntelliSense (Hosain Hossaini)
 - Python, Python Debugger and Python Environments (Microsoft)
-- Java (Oracle Corporation)
 - open in browser (TechER)
 - Code Spell Checker (Street Side Software)
 - Ruff (Astral Software astral.sh)
-- Jupyter (Microsoft)
 - Fluent Icons (Miguel Solorio)
 - GitHub Copilot (GitHub)
-- WSL (Microsoft) for connect with wsl distro.
+- WSL [If you use windows + wsl] and Remote Development (Microsoft) for connect with wsl distro and remote development.
 
 ## 🎨 VS Code Themes
 
