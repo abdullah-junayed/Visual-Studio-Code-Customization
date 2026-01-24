@@ -118,7 +118,6 @@
 - open in browser (TechER)
 - Code Spell Checker (Street Side Software)
 - Ruff (Astral Software astral.sh)
-- Fluent Icons (Miguel Solorio)
 - GitHub Copilot (GitHub)
 - WSL [If you use windows + wsl] and Remote Development (Microsoft) for connect with wsl distro and remote development.
 
@@ -126,6 +125,7 @@
 
 - chai theme (hitesh choudhary) 👈 IM USING THIS THEME.
 - Material Icon Theme (Philipp Kief)
+- Fluent Icons (Miguel Solorio)
 
 ## 🔑 VS Code Keyboard Shortcuts
 
