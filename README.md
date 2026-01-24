@@ -124,6 +124,7 @@
 ## 🎨 VS Code Themes
 
 - chai theme (hitesh choudhary) 👈 IM USING THIS THEME.
+- indent-rainbow (oderwat)
 - Material Icon Theme (Philipp Kief)
 - Fluent Icons (Miguel Solorio)
 
