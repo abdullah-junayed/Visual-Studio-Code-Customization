@@ -5,91 +5,96 @@
 ```bash
 
 {
-  // 🖋️ Editor Typography
-  "editor.fontSize": 18,
-  "editor.fontFamily": "'Fira Code', 'JetBrains Mono', 'Cascadia Code', monospace",
-  "editor.fontLigatures": true,
-  "editor.lineHeight": 28,
-  "editor.wordWrap": "on",
-  "editor.cursorSmoothCaretAnimation": "on",
-  "editor.cursorBlinking": "phase",
-  "editor.cursorStyle": "line-thin",
-  "editor.formatOnSave": true,
-  "editor.formatOnPaste": true,
-  "editor.formatOnType": true,
-  "editor.linkedEditing": true,
-  "editor.bracketPairColorization.enabled": true,
-  "editor.guides.bracketPairs": true,
-  "editor.guides.bracketPairsHorizontal": true,
-  "editor.hover.enabled": "on",
-  "editor.smoothScrolling": true,
-  "editor.minimap.enabled": true,
-  "editor.minimap.size": "fill",
-  "editor.minimap.renderCharacters": false,
-  "editor.minimap.maxColumn": 80,
+    // 🖋️ Editor Typography
+    "editor.fontSize": 18,
+    "editor.fontFamily": "'Fira Code', 'JetBrains Mono', 'Cascadia Code', monospace",
+    "editor.fontLigatures": true,
+    "editor.lineHeight": 28,
+    "editor.wordWrap": "on",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorBlinking": "expand",
+    "editor.cursorStyle": "line",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "editor.linkedEditing": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": true,
+    "editor.guides.bracketPairsHorizontal": true,
+    "editor.hover.enabled": "on",
+    "editor.smoothScrolling": true,
+    "editor.minimap.enabled": true,
+    "editor.minimap.size": "fill",
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.maxColumn": 80,
 
-  // 🎨 Custom Colors & Theme
-  "workbench.colorTheme": "Dark Chai",
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.productIconTheme": "fluent-icons",
-  "workbench.editor.enablePreview": false,
-  "editor.tokenColorCustomizations": {
-    "comments": "#a29bfe",
-    "keywords": "#ff6ac1",
-    "functions": "#74b9ff",
-    "strings": "#ffeaa7",
-    "variables": "#00cec9"
-  },
+    // 🎨 Custom Colors & Theme
+    "workbench.colorTheme": "Dark Chai",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.productIconTheme": "fluent-icons",
+    "workbench.editor.enablePreview": false,
+    "editor.tokenColorCustomizations": {
+        "comments": "#a29bfe",
+        "keywords": "#ff6ac1",
+        "functions": "#74b9ff",
+        "strings": "#ffeaa7",
+        "variables": "#00cec9",
+    },
 
-  // 🧠 IntelliSense & Formatting
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[python]": {
-    "editor.defaultFormatter": "charliermarsh.ruff"
-  },
+    // 🧠 IntelliSense & Formatting
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features",
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+    },
 
-  // 🧪 Prettier Config
-  "prettier.proseWrap": "always",
-  "prettier.singleQuote": true,
-  "prettier.arrowParens": "avoid",
+    // 🧪 Prettier Config
+    "prettier.proseWrap": "always",
+    "prettier.singleQuote": true,
+    "prettier.arrowParens": "avoid",
+    "prettier.bracketSameLine": true,
+    "prettier.endOfLine": "auto",
+    "prettier.tabWidth": 4,
 
-  // 🌐 Terminal
-  "terminal.integrated.fontSize": 18,
-  "terminal.integrated.cursorBlinking": true,
-  "terminal.integrated.cursorStyle": "underline",
-  "terminal.integrated.fontFamily": "'Fira Code', 'JetBrains Mono', 'Cascadia Code', monospace",
+    // 🌐 Terminal
+    "terminal.integrated.fontSize": 18,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "underline",
+    "terminal.integrated.fontLigatures.enabled": true,
+    "terminal.integrated.fontFamily": "'Fira Code', 'JetBrains Mono', 'Cascadia Code', monospace",
 
-  // 🔥 Live Server
-  "liveServer.settings.CustomBrowser": "chrome:PrivateMode",
-  "liveServer.settings.donotShowInfoMsg": true,
-  "liveServer.settings.donotVerifyTags": true,
+    // 🔥 Live Server
+    "liveServer.settings.CustomBrowser": "chrome:PrivateMode",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.donotVerifyTags": true,
 
-  // 📸 Screencast Mode
-  "screencastMode.onlyKeyboardShortcuts": true,
-  "screencastMode.mouseIndicatorColor": "#f1c40f",
-  "screencastMode.verticalOffset": 0,
+    // 📸 Screencast Mode
+    "screencastMode.onlyKeyboardShortcuts": true,
+    "screencastMode.mouseIndicatorColor": "#f1c40f",
+    "screencastMode.verticalOffset": 0,
 
-  // ⚙️ Emmet for JSX
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
-  },
+    // ⚙️ Emmet for JSX
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+    },
 
-  // 🧼 Misc
-  "window.zoomLevel": 0,
-  "diffEditor.wordWrap": "on",
-  "security.workspace.trust.untrustedFiles": "open",
-  "terminal.integrated.fontLigatures.enabled": true,
-  "files.autoSave": "afterDelay",
-  "editor.mouseWheelZoom": true,
-  "workbench.sideBar.location": "right"
+    // 🧼 Misc
+    "window.zoomLevel": 0,
+    "diffEditor.wordWrap": "on",
+    "security.workspace.trust.untrustedFiles": "open",
+    "files.autoSave": "afterDelay",
+    "editor.mouseWheelZoom": true,
+    "workbench.startupEditor": "terminal",
+    "workbench.sideBar.location": "right",
+    "explorer.confirmDragAndDrop": true,
 }
 
 
