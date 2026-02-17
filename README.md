@@ -67,7 +67,7 @@
     // 🌐 Terminal
     "terminal.integrated.fontSize": 18,
     "terminal.integrated.cursorBlinking": true,
-    "terminal.integrated.cursorStyle": "underline",
+    "terminal.integrated.cursorStyle": "block",
     "terminal.integrated.fontLigatures.enabled": true,
     "terminal.integrated.fontFamily": "'Fira Code', 'JetBrains Mono', 'Cascadia Code', monospace",
 
@@ -92,10 +92,10 @@
     "security.workspace.trust.untrustedFiles": "open",
     "files.autoSave": "afterDelay",
     "editor.mouseWheelZoom": true,
-    "workbench.startupEditor": "terminal",
-    "workbench.sideBar.location": "right",
+    "workbench.startupEditor": "none",
     "explorer.confirmDragAndDrop": true,
 }
+
 
 
 ```
@@ -123,7 +123,7 @@
 - open in browser (TechER)
 - Code Spell Checker (Street Side Software)
 - Ruff (Astral Software astral.sh)
-- GitHub Copilot (GitHub)
+- GitHub Copilot Chat (GitHub)
 - WSL [If you use windows + wsl] and Remote Development (Microsoft) for connect with wsl distro and remote development.
 
 ## 🎨 VS Code Themes
