@@ -4,6 +4,7 @@
 
 ```bash
 
+
 {
     // 🖋️ Editor Typography
     "editor.fontSize": 18,
@@ -94,7 +95,12 @@
     "editor.mouseWheelZoom": true,
     "workbench.startupEditor": "none",
     "explorer.confirmDragAndDrop": true,
+    "chat.unifiedAgentsBar.enabled": true,
+    "workbench.sideBar.location": "right",
 }
+
+
+
 
 
 
