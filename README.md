@@ -6,102 +6,54 @@
 
 
 {
-    // 🖋️ Editor Typography
-    "editor.fontSize": 18,
-    "editor.fontFamily": "'Fira Code', 'JetBrains Mono', 'Cascadia Code', monospace",
+    // 🖋️ Typography & Core
+    "editor.fontSize": 16,
+    "editor.lineHeight": 1.6,
+    "editor.fontFamily": "'JetBrains Mono', 'Fira Code', monospace",
     "editor.fontLigatures": true,
-    "editor.lineHeight": 28,
-    "editor.wordWrap": "on",
+    "editor.cursorBlinking": "smooth",
     "editor.cursorSmoothCaretAnimation": "on",
-    "editor.cursorBlinking": "expand",
-    "editor.cursorStyle": "line",
-    "editor.formatOnSave": true,
-    "editor.formatOnPaste": true,
-    "editor.formatOnType": true,
-    "editor.linkedEditing": true,
-    "editor.bracketPairColorization.enabled": true,
-    "editor.guides.bracketPairs": true,
-    "editor.guides.bracketPairsHorizontal": true,
-    "editor.hover.enabled": "on",
     "editor.smoothScrolling": true,
-    "editor.minimap.enabled": true,
-    "editor.minimap.size": "fill",
-    "editor.minimap.renderCharacters": false,
-    "editor.minimap.maxColumn": 80,
 
-    // 🎨 Custom Colors & Theme
+    // 🎨 Theme & Icons
     "workbench.colorTheme": "Dark Chai",
     "workbench.iconTheme": "material-icon-theme",
     "workbench.productIconTheme": "fluent-icons",
-    "workbench.editor.enablePreview": false,
-    "editor.tokenColorCustomizations": {
-        "comments": "#a29bfe",
-        "keywords": "#ff6ac1",
-        "functions": "#74b9ff",
-        "strings": "#ffeaa7",
-        "variables": "#00cec9",
+
+    // 🌈 Minimalist Indent Rainbow
+    "indentRainbow.indicatorStyle": "light",
+    "indentRainbow.lightIndicatorStyleLineWidth": 1,
+    "indentRainbow.colors": [
+        "rgba(255,255,255,0.1)",
+        "rgba(255,255,255,0.05)"
+    ],
+
+    // 🚀 Automation & Productivity
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit",
+        "source.fixAll.eslint": "explicit"
     },
+    "editor.bracketPairColorization.enabled": true,
+    "editor.stickyScroll.enabled": true,
+    "editor.linkedEditing": true,
 
-    // 🧠 IntelliSense & Formatting
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features",
-    },
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-    },
-    "[css]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-    },
-    "[python]": {
-        "editor.defaultFormatter": "charliermarsh.ruff",
-    },
-
-    // 🧪 Prettier Config
-    "prettier.proseWrap": "always",
-    "prettier.singleQuote": true,
-    "prettier.arrowParens": "avoid",
-    "prettier.bracketSameLine": true,
-    "prettier.endOfLine": "auto",
-    "prettier.tabWidth": 4,
-
-    // 🌐 Terminal
-    "terminal.integrated.fontSize": 18,
-    "terminal.integrated.cursorBlinking": true,
-    "terminal.integrated.cursorStyle": "block",
-    "terminal.integrated.fontLigatures.enabled": true,
-    "terminal.integrated.fontFamily": "'Fira Code', 'JetBrains Mono', 'Cascadia Code', monospace",
-
-    // 🔥 Live Server
-    "liveServer.settings.CustomBrowser": "chrome:PrivateMode",
-    "liveServer.settings.donotShowInfoMsg": true,
-    "liveServer.settings.donotVerifyTags": true,
-
-    // 📸 Screencast Mode
-    "screencastMode.onlyKeyboardShortcuts": true,
-    "screencastMode.mouseIndicatorColor": "#f1c40f",
-    "screencastMode.verticalOffset": 0,
-
-    // ⚙️ Emmet for JSX
-    "emmet.includeLanguages": {
-        "javascript": "javascriptreact",
-    },
-
-    // 🧼 Misc
-    "window.zoomLevel": 0,
-    "diffEditor.wordWrap": "on",
-    "security.workspace.trust.untrustedFiles": "open",
-    "files.autoSave": "afterDelay",
-    "editor.mouseWheelZoom": true,
-    "workbench.startupEditor": "none",
-    "explorer.confirmDragAndDrop": true,
-    "chat.unifiedAgentsBar.enabled": true,
+    // 🧼 UI Minimalism (The "Zen" Logic)
+    "workbench.activityBar.location": "hidden",
     "workbench.sideBar.location": "right",
+    "workbench.statusBar.visible": true,
+    "editor.minimap.enabled": false,
+    "editor.scrollbar.vertical": "hidden",
+    "editor.renderLineHighlight": "gutter",
+    "workbench.editor.showTabs": "single",
+    "window.commandCenter": false,
+
+    // 🧪 Language Specifics
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff"
+    }
 }
-
-
-
-
 
 
 ```
@@ -130,6 +82,11 @@
 - Code Spell Checker (Street Side Software)
 - Ruff (Astral Software astral.sh)
 - GitHub Copilot Chat (GitHub)
+- Better Comments (Aaron Bond)
+- Docker (Microsoft)
+- Git Graph (mhutchie)
+- Error Lens (Alexander)
+- Console Ninja (Wallaby.js)
 - WSL [If you use windows + wsl] and Remote Development (Microsoft) for connect with wsl distro and remote development.
 
 ## 🎨 VS Code Themes
