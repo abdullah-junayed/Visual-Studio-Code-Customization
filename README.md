@@ -14,6 +14,7 @@
     "editor.cursorBlinking": "smooth",
     "editor.cursorSmoothCaretAnimation": "on",
     "editor.smoothScrolling": true,
+    "files.autoSave": "afterDelay",
 
     // 🎨 Theme & Icons
     "workbench.colorTheme": "Dark Chai",
@@ -52,8 +53,10 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "[python]": {
         "editor.defaultFormatter": "charliermarsh.ruff"
-    }
+    },
 }
+
+
 
 
 ```
