@@ -6,54 +6,83 @@
 
 
 {
-    // 🖋️ Typography & Core
-    "editor.fontSize": 16,
-    "editor.lineHeight": 1.6,
-    "editor.fontFamily": "'JetBrains Mono', 'Fira Code', monospace",
-    "editor.fontLigatures": true,
-    "editor.cursorBlinking": "smooth",
-    "editor.cursorSmoothCaretAnimation": "on",
-    "editor.smoothScrolling": true,
-    "files.autoSave": "afterDelay",
+  // --- 1. THEME & MODERN AESTHETIC ---
+  "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorCustomizations": {
+    "editor.background": "#0d1117",
+    "sideBar.background": "#010409",
+    "activityBar.background": "#010409",
+    "statusBar.background": "#010409",
+    "editorGroupHeader.tabsBackground": "#010409",
+    "tab.activeBackground": "#0d1117",
+    "tab.activeBorder": "#f78166",
+    "terminal.background": "#0d1117",
+    "editorStickyScroll.background": "#0d1117",
+  },
 
-    // 🎨 Theme & Icons
-    "workbench.colorTheme": "Dark Chai",
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.productIconTheme": "fluent-icons",
+  // --- 2. 14-INCH SCREEN DENSITY ---
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.6,
+  "window.zoomLevel": 0.5,
+  "editor.minimap.enabled": false,
+  "editor.stickyScroll.enabled": true,
+  "editor.fontFamily": "'JetBrains Mono', 'Cascadia Code', monospace",
+  "editor.fontLigatures": true,
 
-    // 🌈 Minimalist Indent Rainbow
-    "indentRainbow.indicatorStyle": "light",
-    "indentRainbow.lightIndicatorStyleLineWidth": 1,
-    "indentRainbow.colors": [
-        "rgba(255,255,255,0.1)",
-        "rgba(255,255,255,0.05)"
-    ],
+  // --- 3. LANGUAGE SPECIFIC CONFIGS ---
 
-    // 🚀 Automation & Productivity
+  // Python & Data Science (Ruff Optimized)
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
-        "source.organizeImports": "explicit",
-        "source.fixAll.eslint": "explicit"
+      "source.fixAll.ruff": "explicit",
+      "source.organizeImports.ruff": "explicit",
     },
-    "editor.bracketPairColorization.enabled": true,
-    "editor.stickyScroll.enabled": true,
-    "editor.linkedEditing": true,
+  },
+  "notebook.lineNumbers": "on",
 
-    // 🧼 UI Minimalism (The "Zen" Logic)
-    "workbench.activityBar.location": "hidden",
-    "workbench.sideBar.location": "right",
-    "workbench.statusBar.visible": true,
-    "editor.minimap.enabled": false,
-    "editor.scrollbar.vertical": "hidden",
-    "editor.renderLineHighlight": "gutter",
-    "workbench.editor.showTabs": "single",
-    "window.commandCenter": false,
+  // JS / TS / React / Next.js
+  "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[javascriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[typescriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
 
-    // 🧪 Language Specifics
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "[python]": {
-        "editor.defaultFormatter": "charliermarsh.ruff"
-    },
+  // HTML / CSS / PHP
+  "[html]": { "editor.defaultFormatter": "vscode.html-language-features" },
+  "[css]": { "editor.defaultFormatter": "vscode.css-language-features" },
+  "[php]": { "editor.defaultFormatter": "bmewburn.vscode-intelephense-client" },
+
+  // C / C++ / Java
+  "[cpp]": { "editor.defaultFormatter": "ms-vscode.cpptools" },
+  "[java]": { "editor.defaultFormatter": "redhat.java" },
+
+  // DevOps & Data (SQL, YAML, Docker)
+  "[sql]": { "editor.formatOnSave": true },
+  "sqltools.results.location": "pane",
+
+  // --- 4. TERMINAL & WSL ---
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.fontSize": 13,
+  "terminal.integrated.gpuAcceleration": "on",
+  "terminal.integrated.cursorBlinking": true,
+
+  // --- 5. AUTOMATION & MODERN UI ---
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.linkedEditing": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "editor.hover.delay": 300,
+  "explorer.confirmDelete": false,
+
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescriptreact": "typescriptreact",
+  },
 }
 
 
@@ -69,6 +98,8 @@
 - ESLint (Microsoft)
 - HTML CSS Support (ecmel)
 - JavaScript (ES6) code snippets (charalampos karypidis)
+- java (red hat)
+- PHP Intelephense (Intelephense)
 - JavaScript and TypeScript Nightly (Microsoft)
 - Live Server (Ritwick Dey)
 - npm Intellisense (Christian Kohler)
@@ -95,7 +126,7 @@
 
 ## 🎨 VS Code Themes
 
-- chai theme (hitesh choudhary) 👈 IM USING THIS THEME.
+- GitHub Theme (GitHub) 👈 IM USING THIS THEME.
 - indent-rainbow (oderwat)
 - Material Icon Theme (Philipp Kief)
 - Fluent Icons (Miguel Solorio)
