@@ -79,10 +79,8 @@
 - React Native Tools (Microsoft)
 - Snipped (Jefferson Licet)
 - Tailwind CSS IntelliSense (Tailwind Labs)
-- Bootstrap IntelliSense (Hosain Hossaini)
 - Python, Python Debugger and Python Environments (Microsoft)
 - open in browser (TechER)
-- Code Spell Checker (Street Side Software)
 - Ruff (Astral Software astral.sh)
 - GitHub Copilot Chat (GitHub)
 - Better Comments (Aaron Bond)
@@ -90,6 +88,9 @@
 - Git Graph (mhutchie)
 - Error Lens (Alexander)
 - Console Ninja (Wallaby.js)
+- Import Cost (Wix)
+- Headwind (Ryan Heybourn)
+- Live Share (Microsoft)
 - WSL [If you use windows + wsl] and Remote Development (Microsoft) for connect with wsl distro and remote development.
 
 ## 🎨 VS Code Themes
