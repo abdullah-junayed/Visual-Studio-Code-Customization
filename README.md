@@ -4,71 +4,88 @@
 
 ```bash
 
-
 {
   // --- 1. THEME & MODERN AESTHETIC ---
-  "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.colorTheme": "Chai",
   "workbench.iconTheme": "material-icon-theme",
+  "window.titleBarStyle": "custom", // Looks much cleaner on Windows 11
+  // Custom UI colors tailored for the Chai theme
   "workbench.colorCustomizations": {
-    "editor.background": "#0d1117",
-    "sideBar.background": "#010409",
-    "activityBar.background": "#010409",
-    "statusBar.background": "#010409",
-    "editorGroupHeader.tabsBackground": "#010409",
-    "tab.activeBackground": "#0d1117",
-    "tab.activeBorder": "#f78166",
-    "terminal.background": "#0d1117",
-    "editorStickyScroll.background": "#0d1117",
+    "[Chai]": {
+      "editor.lineHighlightBackground": "#2a2420", // Subtle warm highlight for the active line
+      "editorStickyScroll.background": "#1e1a17",
+      "editorLineNumber.foreground": "#7a6a5a" // Dimmed line numbers to reduce clutter
+    }
   },
-
-  // --- 2. 14-INCH SCREEN DENSITY ---
+  // --- 2. SYNTAX COLOR OVERRIDES (Eye-Safe) ---
+  "editor.tokenColorCustomizations": {
+    "[Chai]": {
+      "comments": "#8b7b6b" // Softens comments to blend better with the warm background
+    }
+  },
+  // --- 3. 14-INCH SCREEN @ 150% SCALE OPTIMIZATIONS ---
+  // Shrinks the bulky UI (sidebar/tabs) but keeps the code font large and readable
+  "window.zoomLevel": -0.5,
   "editor.fontSize": 14,
   "editor.lineHeight": 1.6,
-  "window.zoomLevel": 0.5,
-  "editor.minimap.enabled": false,
+  "editor.minimap.enabled": false, // Essential for saving space on a 14-inch screen
   "editor.stickyScroll.enabled": true,
   "editor.fontFamily": "'JetBrains Mono', 'Cascadia Code', monospace",
   "editor.fontLigatures": true,
-
-  // --- 3. LANGUAGE SPECIFIC CONFIGS ---
-
-  // Python & Data Science (Ruff Optimized)
+  "editor.smoothScrolling": true,
+  "editor.cursorSmoothCaretAnimation": "on",
+  // --- 4. LANGUAGE SPECIFIC CONFIGS ---
+  // Python & Data Science
   "[python]": {
     "editor.defaultFormatter": "charliermarsh.ruff",
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
       "source.fixAll.ruff": "explicit",
-      "source.organizeImports.ruff": "explicit",
-    },
+      "source.organizeImports.ruff": "explicit"
+    }
   },
   "notebook.lineNumbers": "on",
-
   // JS / TS / React / Next.js
-  "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[javascriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[typescriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   // HTML / CSS / PHP
-  "[html]": { "editor.defaultFormatter": "vscode.html-language-features" },
-  "[css]": { "editor.defaultFormatter": "vscode.css-language-features" },
-  "[php]": { "editor.defaultFormatter": "bmewburn.vscode-intelephense-client" },
-
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
   // C / C++ / Java
-  "[cpp]": { "editor.defaultFormatter": "ms-vscode.cpptools" },
-  "[java]": { "editor.defaultFormatter": "redhat.java" },
-
-  // DevOps & Data (SQL, YAML, Docker)
-  "[sql]": { "editor.formatOnSave": true },
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "[java]": {
+    "editor.defaultFormatter": "redhat.java"
+  },
+  // DevOps & Data
+  "[sql]": {
+    "editor.formatOnSave": true
+  },
   "sqltools.results.location": "pane",
-
-  // --- 4. TERMINAL & WSL ---
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  // --- 5. TERMINAL & WSL ---
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
   "terminal.integrated.fontSize": 13,
-  "terminal.integrated.gpuAcceleration": "on",
+  "terminal.integrated.gpuAcceleration": "auto", // Better stability for laptop battery/APU
   "terminal.integrated.cursorBlinking": true,
-
-  // --- 5. AUTOMATION & MODERN UI ---
+  // --- 6. AUTOMATION & MODERN UI ---
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "editor.linkedEditing": true,
@@ -78,15 +95,11 @@
   "files.autoSaveDelay": 1000,
   "editor.hover.delay": 300,
   "explorer.confirmDelete": false,
-
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
-    "typescriptreact": "typescriptreact",
-  },
+    "typescriptreact": "typescriptreact"
+  }
 }
-
-
-
 
 ```
 
@@ -126,7 +139,7 @@
 
 ## 🎨 VS Code Themes
 
-- GitHub Theme (GitHub) 👈 IM USING THIS THEME.
+- Chai Theme (hitesh choudhary) 👈 IM USING THIS THEME.
 - indent-rainbow (oderwat)
 - Material Icon Theme (Philipp Kief)
 - Fluent Icons (Miguel Solorio)
