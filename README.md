@@ -6,7 +6,7 @@
 
 {
   // --- 1. THEME & MODERN AESTHETIC ---
-  "workbench.colorTheme": "Chai",
+  "workbench.colorTheme": "Dark Chai",
   "workbench.iconTheme": "material-icon-theme",
   "window.titleBarStyle": "custom", // Looks much cleaner on Windows 11
   // Custom UI colors tailored for the Chai theme
