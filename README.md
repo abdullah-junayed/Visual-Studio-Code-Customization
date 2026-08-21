@@ -5,25 +5,76 @@
 ```bash
 
 {
+  // Appearance (Your preferences)
   "workbench.colorTheme": "Dark Chai",
   "workbench.iconTheme": "material-icon-theme",
   "window.titleBarStyle": "custom",
   "window.zoomLevel": -0.5,
   "editor.fontSize": 14,
-  "editor.lineHeight": 1.6,
-  "editor.minimap.enabled": false,
-  "editor.stickyScroll.enabled": true,
+  "editor.lineHeight": 1.5,
   "editor.fontFamily": "'JetBrains Mono', 'Cascadia Code', monospace",
   "editor.fontLigatures": true,
-  "editor.smoothScrolling": false, 
-  "editor.cursorSmoothCaretAnimation": "off", 
+  "workbench.activityBar.location": "top", 
+  "workbench.editor.showTabs": "multiple", 
+  "workbench.sideBar.location": "right",
+
+  // Editor Behavior
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": true,
+  "editor.hover.delay": 500,
   "editor.renderWhitespace": "none",
-  "editor.semanticHighlighting.enabled": true,
-  "telemetry.telemetryLevel": "off", 
-  "typescript.suggest.completeFunctionCalls": false,
-  "typescript.tsserver.maxTsServerMemory": 2048, 
+  "editor.wordWrap": "on",
+  "editor.largeFileOptimizations": true,
+
+  // Save & Privacy
+  "files.autoSave": "onFocusChange",
+  "telemetry.telemetryLevel": "off",
+  "explorer.confirmDelete": false,
+
+  // Windows Terminal
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.fontSize": 13,
+
+  // WSL Terminal
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.profiles.linux": {
+    "bash": {
+      "path": "bash",
+      "icon": "terminal-bash"
+    },
+    "zsh": {
+      "path": "/usr/bin/zsh"
+    }
+  },
+
+  // Add these for even faster experience
+  "files.watcherExclude": {
+    "**/node_modules/**": true,
+    "**/venv/**": true,
+    "**/__pycache__/**": true,
+    "**/.git/**": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/venv": true,
+    "**/dist": true,
+    "**/build": true
+  },
+  "js/ts.tsserver.automaticTypeAcquisition.enabled": false,
+
+
+  // Emmet & Tailwind
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescriptreact": "typescriptreact"
+  },
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "html",
+    "html": "html"
+  },
   "html.suggest.html5": true,
-  "python.indexing.binaries": false,
+
+  // formatters for languages
   "[python]": {
     "editor.defaultFormatter": "charliermarsh.ruff",
     "editor.formatOnSave": true,
@@ -32,14 +83,13 @@
       "source.organizeImports.ruff": "explicit"
     }
   },
-  "notebook.lineNumbers": "on",
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[javascriptreact]": {
+  "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[typescript]": {
+  "[javascriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescriptreact]": {
@@ -50,58 +100,23 @@
   },
   "[css]": {
     "editor.defaultFormatter": "vscode.css-language-features"
-  },
-  "[php]": {
-    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
-  },
-  "[cpp]": {
-    "editor.defaultFormatter": "ms-vscode.cpptools"
-  },
-  "[c]": {
-    "editor.defaultFormatter": "ms-vscode.cpptools"
-  },
-  "C_Cpp.intelliSenseEngine": "default",
-  "C_Cpp.workspaceParsingPriority": "low", 
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact",
-    "typescriptreact": "typescriptreact"
-  },
-  "tailwindCSS.includeLanguages": {
-    "plaintext": "html",
-    "html": "html"
-  },
-  "terminal.integrated.defaultProfile.windows": "PowerShell",
-  "terminal.integrated.fontSize": 13,
-  "terminal.integrated.gpuAcceleration": "off", 
-  "terminal.integrated.cursorBlinking": false,
-  "editor.formatOnSave": true,
-  "editor.formatOnPaste": false, 
-  "editor.linkedEditing": true,
-  "editor.bracketPairColorization.enabled": true,
-  "editor.guides.bracketPairs": "active",
-  "files.autoSave": "onFocusChange", 
-  "editor.hover.delay": 500,
-  "explorer.confirmDelete": false
+  }
 }
 
 ```
 
 ## ⚙️ VS Code Extension
 
-- c/c++ (Microsoft)
-- PHP Intelephense (Intelephense)
-- Live Server (Ritwick Dey)
 - Prettier - Code formatted (Prettier)
 - ES7+ React/Redux/React-Native snippets (dsznajder)
 - Tailwind CSS IntelliSense (Tailwind Labs)
-- Python, Python Debugger and Python Environments (Microsoft)
+- Python, Python Debugger (Microsoft)
 - Ruff (Astral Software astral.sh)
 - WSL [If you use windows + wsl] for connect with WSL.
 
 ## 🎨 VS Code Themes
 
 - Chai Theme (hitesh choudhary) 👈 IM USING THIS THEME.
-- indent-rainbow (oderwat)
 - Material Icon Theme (Philipp Kief)
 
 ## 🔑 VS Code Keyboard Shortcuts
