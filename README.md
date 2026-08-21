@@ -5,93 +5,84 @@
 ```bash
 
 {
-  // --- 1. THEME & MODERN AESTHETIC ---
   "workbench.colorTheme": "Dark Chai",
   "workbench.iconTheme": "material-icon-theme",
-  "window.titleBarStyle": "custom", // Looks much cleaner on Windows 11
-  
-  // --- 3. 14-INCH SCREEN @ 150% SCALE OPTIMIZATIONS ---
-  // Shrinks the bulky UI (sidebar/tabs) but keeps the code font large and readable
+  "window.titleBarStyle": "custom",
   "window.zoomLevel": -0.5,
   "editor.fontSize": 14,
   "editor.lineHeight": 1.6,
-  "editor.minimap.enabled": false, // Essential for saving space on a 14-inch screen
+  "editor.minimap.enabled": false,
   "editor.stickyScroll.enabled": true,
   "editor.fontFamily": "'JetBrains Mono', 'Cascadia Code', monospace",
   "editor.fontLigatures": true,
-  "editor.smoothScrolling": true,
-  "editor.cursorSmoothCaretAnimation": "on",
-
-  // --- 4. LANGUAGE SPECIFIC CONFIGS ---
-  // Python & Data Science
+  "editor.smoothScrolling": false, 
+  "editor.cursorSmoothCaretAnimation": "off", 
+  "editor.renderWhitespace": "none",
+  "editor.semanticHighlighting.enabled": true,
+  "telemetry.telemetryLevel": "off", 
+  "typescript.suggest.completeFunctionCalls": false,
+  "typescript.tsserver.maxTsServerMemory": 2048, 
+  "html.suggest.html5": true,
+  "python.indexing.binaries": false,
   "[python]": {
     "editor.defaultFormatter": "charliermarsh.ruff",
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
       "source.fixAll.ruff": "explicit",
-      "source.organizeImports.ruff": "explicit",
-    },
+      "source.organizeImports.ruff": "explicit"
+    }
   },
   "notebook.lineNumbers": "on",
-  
-  // JS / TS / React / Next.js
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  
-  // HTML / CSS / PHP
   "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features",
+    "editor.defaultFormatter": "vscode.html-language-features"
   },
   "[css]": {
-    "editor.defaultFormatter": "vscode.css-language-features",
+    "editor.defaultFormatter": "vscode.css-language-features"
   },
   "[php]": {
-    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client",
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
   },
-  
-  // C / C++ / Java
   "[cpp]": {
-    "editor.defaultFormatter": "ms-vscode.cpptools",
+    "editor.defaultFormatter": "ms-vscode.cpptools"
   },
-  
-  // DevOps & Data
-  "[sql]": {
-    "editor.formatOnSave": true,
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
   },
-  "sqltools.results.location": "pane",
-  
-  // --- 5. TERMINAL & WSL ---
+  "C_Cpp.intelliSenseEngine": "default",
+  "C_Cpp.workspaceParsingPriority": "low", 
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "typescriptreact": "typescriptreact"
+  },
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "html",
+    "html": "html"
+  },
   "terminal.integrated.defaultProfile.windows": "PowerShell",
   "terminal.integrated.fontSize": 13,
-  "terminal.integrated.gpuAcceleration": "auto", // Better stability for laptop battery/APU
-  "terminal.integrated.cursorBlinking": true,
-  
-  // --- 6. AUTOMATION & MODERN UI ---
+  "terminal.integrated.gpuAcceleration": "off", 
+  "terminal.integrated.cursorBlinking": false,
   "editor.formatOnSave": true,
-  "editor.formatOnPaste": true,
+  "editor.formatOnPaste": false, 
   "editor.linkedEditing": true,
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
-  "files.autoSave": "afterDelay",
-  "files.autoSaveDelay": 1000,
-  "editor.hover.delay": 300,
-  "explorer.confirmDelete": false,
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact",
-    "typescriptreact": "typescriptreact",
-  },
+  "files.autoSave": "onFocusChange", 
+  "editor.hover.delay": 500,
+  "explorer.confirmDelete": false
 }
-
 
 ```
 
@@ -105,9 +96,6 @@
 - Tailwind CSS IntelliSense (Tailwind Labs)
 - Python, Python Debugger and Python Environments (Microsoft)
 - Ruff (Astral Software astral.sh)
-- TODO Highlight (Wayou Liu)
-- Docker DX (Docker)
-- Live Share (Microsoft)
 - WSL [If you use windows + wsl] for connect with WSL.
 
 ## 🎨 VS Code Themes
